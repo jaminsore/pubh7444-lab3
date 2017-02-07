@@ -7,7 +7,7 @@
 library(mvtnorm)
 
 # read data from file
-dir <- "C:/temp/"
+dir <- "C:/Users/bsorenson/pubh7444-lab3/"
 land.data <- read.table(file=paste0(dir,"land_data.txt"),header=T,sep="")
 ls(land.data)
 
