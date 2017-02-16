@@ -9,8 +9,8 @@ set.seed(810973206)
 library(MASS)
 
 # read data from file
-dir <- "C:/temp/"
-land.data <- read.table(file=paste0(dir,"land_data.txt"),header=T,sep="")
+# dir <- "C:/temp/"
+land.data <- read.table(file="./land_data.txt",header=T,sep="")
 ls(land.data)
 
 # define function to generate NITER samples of (beta,sigma^2) 
